@@ -1,7 +1,7 @@
 // Login.js
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-// import './styles/Login.css';
+import '../styles/Login.css';
 
 function Login() {
   const [selectedRole, setSelectedRole] = useState(null); // "admin" or "user"
@@ -23,13 +23,13 @@ function Login() {
   return (
     <div className="login-container">
       <div className="login-left">
-        <img src="/path/to/logo.png" alt="AquaNidhi Logo" className="logo" />
+        <img src="./AquaNidhi_logo.png" alt="AquaNidhi Logo" className="logo" />
         <h1>AQUANIDHI</h1>
         <p>The Ultimate Fisheries Data Hub of India</p>
       </div>
 
       <div className="login-right">
-        <img src="/path/to/logo.png" alt="AquaNidhi Logo" className="mini-logo" />
+        <img src="/AquaNidhi_logo.png" alt="AquaNidhi Logo" className="mini-logo" />
         <h1>AQUANIDHI</h1>
 
         <div className="role-selection">
@@ -69,3 +69,47 @@ function Login() {
 }
 
 export default Login;
+// // Login.js
+// import React, { useState } from 'react';
+// import { useNavigate } from 'react-router-dom';
+// import '../styles/Login.css';
+
+// function Login() {
+//   const [selectedRole, setSelectedRole] = useState('admin'); // Default to "admin"
+//   const navigate = useNavigate();
+
+//   const handleSignIn = () => {
+//     if (selectedRole === 'admin') {
+//       navigate('/admin-dashboard'); // Redirect to Admin Dashboard
+//     } else {
+//       alert('Please select the "Admin" role to proceed.');
+//     }
+//   };
+
+//   return (
+//     <div className="login-container">
+//       <div className="login-left">
+//         <img src="./AquaNidhi_logo.png" alt="AquaNidhi Logo" className="logo" />
+//         <h1>AQUANIDHI</h1>
+//         <p>The Ultimate Fisheries Data Hub of India</p>
+//       </div>
+
+//       <div className="login-right">
+//         <img src="/AquaNidhi_logo.png" alt="AquaNidhi Logo" className="mini-logo" />
+//         <h1>AQUANIDHI</h1>
+
+//         <div className="role-selection">
+//           <button className="role-button selected">Admin</button>
+//         </div>
+
+//         <div className="login-form">
+//           <button className="sign-in-button" onClick={handleSignIn}>
+//             Sign in
+//           </button>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Login;

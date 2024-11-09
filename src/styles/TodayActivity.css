@@ -1,0 +1,33 @@
+.today-activity {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .today-activity h3 {
+    margin-bottom: 15px;
+  }
+  
+  .activity-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .activity-cards .card {
+    background-color: #3498db;
+    color: white;
+    flex: 1;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 6px;
+    transition: transform 0.2s;
+  }
+  
+  .activity-cards .card:hover {
+    transform: translateY(-5px);
+  }
+  

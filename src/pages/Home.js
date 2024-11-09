@@ -1,7 +1,7 @@
 // home.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-// import './styles/Home.css';
+import '../styles/Home.css';
 
 function Home() {
   const navigate = useNavigate();
@@ -49,22 +49,22 @@ function Home() {
         </p>
         <div className="icons-section">
           <div className="icon-card">
-            <img src="/path/to/data-hub-icon.png" alt="Data Hub Icon" />
+            <img src="/1.png" alt="Data Hub Icon" />
             <h3>DATA HUB</h3>
             <p>A central platform for all geo-referenced fish catch data.</p>
           </div>
           <div className="icon-card">
-            <img src="/path/to/fisheries-insights-icon.png" alt="Fisheries Insights Icon" />
+            <img src="/2.png" alt="Fisheries Insights Icon" />
             <h3>FISHERIES INSIGHTS</h3>
             <p>Visualize and analyze species-specific patterns and trends.</p>
           </div>
           <div className="icon-card">
-            <img src="/path/to/geo-insights-icon.png" alt="Geo Insights Icon" />
+            <img src="3.png" alt="Geo Insights Icon" />
             <h3>GEO INSIGHTS</h3>
             <p>Analyze fish data by location with interactive maps and filters.</p>
           </div>
           <div className="icon-card">
-            <img src="/path/to/seamless-integration-icon.png" alt="Seamless Integration Icon" />
+            <img src="/4.png" alt="Seamless Integration Icon" />
             <h3>SEAMLESS INTEGRATION</h3>
             <p>Connect multiple data sources into a single, organized system.</p>
           </div>

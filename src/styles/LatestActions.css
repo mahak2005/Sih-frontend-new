@@ -1,0 +1,33 @@
+.latest-actions {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .latest-actions h3 {
+    margin-bottom: 15px;
+  }
+  
+  .latest-actions table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .latest-actions table th, 
+  .latest-actions table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #bdc3c7;
+  }
+  
+  .latest-actions table th {
+    background-color: #34495e;
+    color: white;
+  }
+  
+  .latest-actions table tr:hover {
+    background-color: #f2f2f2;
+  }
+  
